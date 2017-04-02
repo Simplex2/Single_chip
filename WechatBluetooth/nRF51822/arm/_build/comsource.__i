@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\toolchain\arm -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\toolchain\CMSIS\Include -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\ble\ble_services -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\libraries\uart -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\libraries\util -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\drivers_nrf\nrf_soc_nosd -I F:\Keil\nRF5_SDK_11.0.0_89a8197\components\softdevice\s130\headers --c99
+-I F:\Keil\ARM\RV31\INC
+-I F:\Keil\ARM\CMSIS\Include
+-I F:\Keil\ARM\Device\Nordic\nRF51822\Include
+-D__UVISION_VERSION="520" -DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG
+-o .\_build\comsource.o --omf_browse .\_build\comsource.crf --depend .\_build\comsource.d "..\source\comsource.c"

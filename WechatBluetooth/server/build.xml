@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="bluelight" default="make-war" basedir=".">
+
+	<property name="war.name" value="gewuStudio.war" />
+	<property name="web.dir" value="${basedir}/WebContent" />
+	<property name="class.dir" value="${basedir}/build/classes" />
+	<property name="war.dest" value="${basedir}/dist/qfwx.war" />
+	<property name="src.dir" value="${basedir}/src" />
+
+	<target name="clean">
+		<delete dir="${class.dir}" />
+		<mkdir dir="${class.dir}" />
+	</target>
+
+	<path id="project.lib">
+		<fileset dir="${basedir}/WebContent/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${basedir}/ex.lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="compile" depends="clean">
+		<javac srcdir="src" destdir="${class.dir}" encoding="UTF-8" source="1.6" deprecation="true" debug="true" >
+			<classpath refid="project.lib">
+			</classpath>
+		</javac>
+		<copy todir="${class.dir}">
+			<fileset dir="${src.dir}" >
+				<include name="**/**.*" />
+				<exclude name="**/*.class" />
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="make-war" depends="compile">
+		<delete dir="${war.dest}" />
+		<war destfile="${war.dest}" webxml="${basedir}/WebContent/WEB-INF/web.xml">
+			<fileset dir="${basedir}/WebContent">
+				<include name="**/**.*" />
+				<exclude name="**/*.jar" />
+				<exclude name="**/*.class" />
+			</fileset>
+			<lib dir="${basedir}/WebContent/WEB-INF/lib" />
+			<classes dir="${class.dir}" />
+		</war>
+	</target>
+
+</project>

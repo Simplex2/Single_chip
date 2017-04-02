@@ -1,0 +1,652 @@
+Dependencies for Project 'ble_app_wechat', Target 'nrf51822': (DO NOT MODIFY !)
+F (..\startup\arm_startup_nrf51.s)(0x54A3FCC0)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include--list .\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (..\startup\system_nrf51.c)(0x5227E316)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+F (..\services\ble_wechat_service.c)(0x54F7FD4A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_wechat_service.o --omf_browse .\_build\ble_wechat_service.crf --depend .\_build\ble_wechat_service.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\ble_wechat_service.h)(0x54BE4B51)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\products\mpbledemo2.h)(0x54F7FE87)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+F (..\libs\ble_stack_handler.c)(0x549C1367)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_stack_handler.o --omf_browse .\_build\ble_stack_handler.crf --depend .\_build\ble_stack_handler.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_assert.h)(0x522F2A88)
+F (..\libs\ble_conn_params.c)(0x522F2A6E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_hci.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+F (..\libs\ble_bondmngr.c)(0x522F2A6C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_bondmngr.o --omf_browse .\_build\ble_bondmngr.crf --depend .\_build\ble_bondmngr.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_bondmngr.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_assert.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\libs\ble_bondmngr_cfg.h)(0x522F2A64)
+F (..\libs\ble_advdata.c)(0x522F2A7C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_advdata.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+F (..\libs\app_timer.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_delay.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+F (..\libs\app_gpiote.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+F (..\libs\app_button.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_button.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\libs\ble_flash.c)(0x522F2A6E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_flash.o --omf_browse .\_build\ble_flash.crf --depend .\_build\ble_flash.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+F (..\libs\ble_radio_notification.c)(0x522F2A7C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_radio_notification.o --omf_browse .\_build\ble_radio_notification.crf --depend .\_build\ble_radio_notification.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_radio_notification.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+F (..\libs\nrf_delay.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_delay.h)(0x522F2A88)
+F (..\libs\crc16.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\crc16.o --omf_browse .\_build\crc16.crf --depend .\_build\crc16.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\crc16.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\libs\ble_srv_common.c)(0x522F2A7C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+F (..\libs\ble_error_log.c)(0x522F2A6C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_error_log.o --omf_browse .\_build\ble_error_log.crf --depend .\_build\ble_error_log.d)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_error_log.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_nrf6310_pins.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+F (..\libs\ble_debug_assert_handler.c)(0x522F2A7C)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_debug_assert_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_error_log.h)(0x522F2A8A)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_nrf6310_pins.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+F (..\libs\app_uart_fifo.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\app_uart_fifo.o --omf_browse .\_build\app_uart_fifo.crf --depend .\_build\app_uart_fifo.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_uart.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_fifo.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+F (..\libs\app_fifo.c)(0x522F2A7E)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\app_fifo.o --omf_browse .\_build\app_fifo.crf --depend .\_build\app_fifo.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_fifo.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+F (..\libs\twi_sw_master.c)(0x522F2A86)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\twi_sw_master.o --omf_browse .\_build\twi_sw_master.crf --depend .\_build\twi_sw_master.d)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\twi_master.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_delay.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\libs\twi_master_config.h)(0x549A31D2)
+F (..\libs\nrf_ecb.c)(0x54A15BF2)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\nrf_ecb.o --omf_browse .\_build\nrf_ecb.crf --depend .\_build\nrf_ecb.d)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_ecb.h)(0x549D49ED)
+F (..\services\products\mpbledemo2.c)(0x54F7FD51)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\mpbledemo2.o --omf_browse .\_build\mpbledemo2.crf --depend .\_build\mpbledemo2.d)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\ble_wechat_service.h)(0x54BE4B51)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\md5.h)(0x548EC7EC)
+I (c:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\crc32.h)(0x53B12CEF)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\AES.h)(0x54C749EF)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\products\mpbledemo2.h)(0x54F7FE87)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\comsource.h)(0x549121C4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_uart.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_bondmngr.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_advdata.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_button.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+F (..\source\led.c)(0x549AB0CE)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\led.o --omf_browse .\_build\led.crf --depend .\_build\led.d)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nordic_common.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\led.h)(0x522F2A64)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\comsource.h)(0x549121C4)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_uart.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_bondmngr.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_advdata.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\ble_wechat_service.h)(0x54BE4B51)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_button.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\products\mpbledemo2.h)(0x54F7FE87)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+F (..\source\main.c)(0x54F7FD5A)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\comsource.h)(0x549121C4)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_uart.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_bondmngr.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_advdata.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\ble_wechat_service.h)(0x54BE4B51)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_button.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\products\mpbledemo2.h)(0x54F7FE87)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\crc32.h)(0x53B12CEF)
+F (..\source\comsource.c)(0x54F7FD61)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\comsource.o --omf_browse .\_build\comsource.crf --depend .\_build\comsource.d)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_uart.h)(0x522F2A88)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_util.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\compiler_abstraction.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51.h)(0x5227E314)
+I (c:\Keil\ARM\CMSIS\Include\core_cm0.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
+I (c:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\system_nrf51.h)(0x5227E316)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_error.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_bitfields.h)(0x5227E314)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_ranges.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_types.h)(0x54903759)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gap.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_svc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_l2cap.h)(0x54A22229)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_err.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatt.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gattc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\ble_gatts.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_bondmngr.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_services\ble_srv_common.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_soc.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_advdata.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\ble_wechat_service.h)(0x54BE4B51)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_conn_params.h)(0x522F2A8C)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_stack_handler.h)(0x522F2A8C)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\softdevice\nrf_error_sdm.h)(0x522418D8)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_scheduler.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_button.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf51_deprecated.h)(0x5227E318)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\nrf_gpio.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_timer.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\app_common\app_gpiote.h)(0x522F2A88)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Include\ble\ble_flash.h)(0x522F2A8A)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\led.h)(0x522F2A64)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\products\mpbledemo2.h)(0x54F7FE87)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\comsource.h)(0x549121C4)
+F (..\services\common\ble_wechat_util.c)(0x54F7FE14)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\ble_wechat_util.o --omf_browse .\_build\ble_wechat_util.crf --depend .\_build\ble_wechat_util.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\ble_wechat_util.h)(0x54C7A2E4)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (..\services\common\epb.c)(0x53D0C077)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\epb.o --omf_browse .\_build\epb.crf --depend .\_build\epb.d)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+F (..\services\common\epb_MmBp.c)(0x5475BD21)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\epb_mmbp.o --omf_browse .\_build\epb_mmbp.crf --depend .\_build\epb_mmbp.d)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb_MmBp.h)(0x5475BD21)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdbool.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\services\common\epb.h)(0x53D0C06D)
+F (..\source\md5.c)(0x548EE631)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\md5.o --omf_browse .\_build\md5.crf --depend .\_build\md5.d)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\md5.h)(0x548EC7EC)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (..\source\aes.c)(0x54F7FF17)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\aes.o --omf_browse .\_build\aes.crf --depend .\_build\aes.d)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\aes.h)(0x54C749EF)
+I (c:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+F (..\source\crc32.c)(0x54ACFD87)(-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 -Otime --apcs=interwork --enum_is_int -I.. -I..\services -I..\services\products -I..\services\common -I..\source -I..\libs -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble\softdevice --c99-I c:\Keil\ARM\RV31\INC-I c:\Keil\ARM\CMSIS\Include-I c:\Keil\ARM\Device\Nordic\nRF51822\Include-DNRF51 -DDEBUG_NRF_USER -DBOARD_PCA10001 -DCATCH_LOG -o .\_build\crc32.o --omf_browse .\_build\crc32.crf --depend .\_build\crc32.d)
+I (c:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Device\Nordic\nrf51822_v4.4.0.30888_Backup\Board\pca10001\ble\mpbledemo_v0.2_0305\source\crc32.h)(0x53B12CEF)
+I (c:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)

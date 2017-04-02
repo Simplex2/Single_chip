@@ -1,0 +1,6 @@
+1、微信推送消息处理入口类：com.bluelight.demo.web.CallbackServlet
+2、消息分类处理：com.bluelight.demo.service.CallbackService
+3、API调用包：com.bluelight.demo.api
+4、开发调试工具类：com.bluelight.tools.Tools
+    用于调试阶段：创建菜单、进行设备授权、生成二维码。
+5、config.properties中配置公众账号信息及token

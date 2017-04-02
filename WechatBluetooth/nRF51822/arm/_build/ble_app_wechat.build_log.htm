@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeff Dean, dfRobot, LIC=7YKQD-8VMFB-HQC0I-T3MQ0-2QW6T-6B03A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  F:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMCM1.DLL V1.14.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+C:\Users\user\Desktop\微信 蓝牙 调研\蓝牙demo开发板源代码v0.2\arm\ble_app_wechat.uvproj
+Project File Date:  03/05/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\Keil\ARM\ARMCC\Bin'
+Build target 'nrf51822'
+assembling arm_startup_nrf51.s...
+compiling ble_stack_handler.c...
+..\libs\ble_stack_handler.c(13): error:  #5: cannot open source input file "ble_stack_handler.h": No such file or directory
+  #include "ble_stack_handler.h"
+..\libs\ble_stack_handler.c: 0 warnings, 1 error
+compiling ble_wechat_service.c...
+..\services\ble_wechat_service.h(7): error:  #5: cannot open source input file "ble.h": No such file or directory
+  #include "ble.h"
+..\services\ble_wechat_service.c: 0 warnings, 1 error
+compiling system_nrf51.c...
+F:\Keil\ARM\Device\Nordic\nRF51822\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\startup\system_nrf51.c: 0 warnings, 1 error
+compiling ble_conn_params.c...
+..\libs\ble_conn_params.c(13): error:  #5: cannot open source input file "ble_conn_params.h": No such file or directory
+  #include "ble_conn_params.h"
+..\libs\ble_conn_params.c: 0 warnings, 1 error
+compiling ble_bondmngr.c...
+..\libs\ble_bondmngr.c(13): error:  #5: cannot open source input file "ble_bondmngr.h": No such file or directory
+  #include "ble_bondmngr.h"
+..\libs\ble_bondmngr.c: 0 warnings, 1 error
+compiling ble_advdata.c...
+..\libs\ble_advdata.c(13): error:  #5: cannot open source input file "ble_advdata.h": No such file or directory
+  #include "ble_advdata.h"
+..\libs\ble_advdata.c: 0 warnings, 1 error
+compiling app_timer.c...
+..\libs\app_timer.c(13): error:  #5: cannot open source input file "app_timer.h": No such file or directory
+  #include "app_timer.h"
+..\libs\app_timer.c: 0 warnings, 1 error
+compiling app_button.c...
+..\libs\app_button.c(13): error:  #5: cannot open source input file "app_button.h": No such file or directory
+  #include "app_button.h"
+..\libs\app_button.c: 0 warnings, 1 error
+compiling app_gpiote.c...
+..\libs\app_gpiote.c(13): error:  #5: cannot open source input file "app_gpiote.h": No such file or directory
+  #include "app_gpiote.h"
+..\libs\app_gpiote.c: 0 warnings, 1 error
+compiling ble_flash.c...
+..\libs\ble_flash.c(13): error:  #5: cannot open source input file "ble_flash.h": No such file or directory
+  #include "ble_flash.h"
+..\libs\ble_flash.c: 0 warnings, 1 error
+compiling ble_radio_notification.c...
+..\libs\ble_radio_notification.c(12): error:  #5: cannot open source input file "ble_radio_notification.h": No such file or directory
+  #include "ble_radio_notification.h"
+..\libs\ble_radio_notification.c: 0 warnings, 1 error
+compiling nrf_delay.c...
+F:\Keil\ARM\Device\Nordic\nRF51822\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\libs\nrf_delay.c: 0 warnings, 1 error
+compiling crc16.c...
+..\libs\crc16.c(13): error:  #5: cannot open source input file "crc16.h": No such file or directory
+  #include "crc16.h"
+..\libs\crc16.c: 0 warnings, 1 error
+compiling ble_srv_common.c...
+..\libs\ble_srv_common.c(13): error:  #5: cannot open source input file "ble_srv_common.h": No such file or directory
+  #include "ble_srv_common.h"
+..\libs\ble_srv_common.c: 0 warnings, 1 error
+compiling ble_debug_assert_handler.c...
+..\libs\ble_debug_assert_handler.c(13): error:  #5: cannot open source input file "ble_debug_assert_handler.h": No such file or directory
+  #include "ble_debug_assert_handler.h"
+..\libs\ble_debug_assert_handler.c: 0 warnings, 1 error
+compiling ble_error_log.c...
+F:\Keil\ARM\Device\Nordic\nRF51822\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\libs\ble_error_log.c: 0 warnings, 1 error
+compiling app_uart_fifo.c...
+..\libs\app_uart_fifo.c(13): error:  #5: cannot open source input file "app_uart.h": No such file or directory
+  #include "app_uart.h"
+..\libs\app_uart_fifo.c: 0 warnings, 1 error
+compiling app_fifo.c...
+..\libs\app_fifo.c(13): error:  #5: cannot open source input file "app_fifo.h": No such file or directory
+  #include "app_fifo.h"
+..\libs\app_fifo.c: 0 warnings, 1 error
+compiling twi_sw_master.c...
+..\libs\twi_sw_master.c(15): error:  #5: cannot open source input file "twi_master.h": No such file or directory
+  #include "twi_master.h"
+..\libs\twi_sw_master.c: 0 warnings, 1 error
+compiling nrf_ecb.c...
+F:\Keil\ARM\Device\Nordic\nRF51822\Include\nrf51.h(119): error:  #5: cannot open source input file "core_cm0.h": No such file or directory
+  #include "core_cm0.h"                               /*!< Cortex-M0 processor and core peripherals                              */
+..\libs\nrf_ecb.c: 0 warnings, 1 error
+compiling led.c...
+..\source\led.c(24): error:  #5: cannot open source input file "nordic_common.h": No such file or directory
+  #include "nordic_common.h"
+..\source\led.c: 0 warnings, 1 error
+compiling mpbledemo2.c...
+..\services\products\mpbledemo2.c(13): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+  #include "nrf_gpio.h"
+..\services\products\mpbledemo2.c: 0 warnings, 1 error
+compiling main.c...
+..\source\comsource.h(5): error:  #5: cannot open source input file "app_uart.h": No such file or directory
+  #include "app_uart.h"
+..\source\main.c: 0 warnings, 1 error
+compiling comsource.c...
+..\source\comsource.c(10): error:  #5: cannot open source input file "app_uart.h": No such file or directory
+  #include "app_uart.h"
+..\source\comsource.c: 0 warnings, 1 error
+compiling epb.c...
+compiling ble_wechat_util.c...
+compiling epb_MmBp.c...
+compiling crc32.c...
+compiling aes.c...
+compiling md5.c...
+".\_build\ble_app_wechat.axf" - 24 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
